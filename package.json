@@ -1,0 +1,59 @@
+{
+  "name": "vue3-blog",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": " vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "zerotower<zerotower@163.com>",
+  "license": "ISC",
+  "dependencies": {
+    "element-plus": "^2.2.26",
+    "pinia": "^2.0.28",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "7.15.4",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.27.1",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^9",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-vue": "^9.1.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "unplugin-auto-import": "^0.12.1",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^4.0.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "webpack"
+      ]
+    }
+  }
+}

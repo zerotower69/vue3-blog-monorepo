@@ -1,0 +1,16 @@
+{
+  "name": "@common/components",
+  "private": true,
+  "version": "1.0.0",
+  "description": "all common components store here",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.2.26"
+  }
+}
